@@ -41,17 +41,18 @@ Primary growth levers identified:
 ---
 
 ## Repository Structure
-sql-product-analytics-bigquery/
-│
-├── README.md
-├── sql/
-│ ├── 01_executive_kpis.sql
-│ ├── 02_funnel_analysis.sql
-│ ├── 03_channel_segmentation.sql
-│ └── 04_retention_analysis.sql
-├── docs/
-│ ├── executive_case_study.md
-│ ├── methodology.md
+
+sql-product-analytics-bigquery/  
+│  
+├── README.md  
+├── sql  
+│ ├── 01_executive_kpis.sql  
+│ ├── 02_funnel_analysis.sql  
+│ ├── 03_channel_segmentation.sql  
+│ └── 04_retention_analysis.sql  
+├── docs  
+│ ├── executive_case_study.md  
+│ ├── methodology.md  
 │ └── funnel_diagram.txt
 
 
