@@ -1,4 +1,4 @@
-# 📊 SQL Product Analytics Case Study (BigQuery)
+# SQL Product Analytics Case Study (BigQuery)
 
 ## Overview
 
@@ -41,3 +41,54 @@ Primary growth levers identified:
 ---
 
 ## Repository Structure
+sql-product-analytics-bigquery/
+│
+├── README.md
+├── sql/
+│ ├── 01_executive_kpis.sql
+│ ├── 02_funnel_analysis.sql
+│ ├── 03_channel_segmentation.sql
+│ └── 04_retention_analysis.sql
+├── docs/
+│ ├── executive_case_study.md
+│ ├── methodology.md
+│ └── funnel_diagram.txt
+
+
+---
+
+## Skills Demonstrated
+
+- Advanced SQL (CTEs, aggregations, SAFE_DIVIDE)
+- Funnel reconstruction from event data
+- Marketing channel ROI analysis
+- Retention measurement
+- Business KPI framing
+- Executive-level insight communication
+
+---
+
+## Business Framing
+
+This project simulates a consulting engagement:
+
+1. Define business question
+2. Translate into analytical logic
+3. Extract insights
+4. Deliver executive-ready findings
+
+---
+
+## How to Reproduce
+
+1. Open Google BigQuery
+2. Access dataset:
+   `bigquery-public-data.google_analytics_sample`
+3. Run scripts inside `/sql`
+
+---
+
+Author:  
+Celeste Walstrom-Vangor  
+B.S. Mathematics & Computer Science  
+SQL | Product Analytics | Consulting-Oriented Analytics
