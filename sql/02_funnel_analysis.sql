@@ -1,4 +1,17 @@
--- 02: Funnel conversion by session (home -> product -> cart -> purchase)
+-- 02_funnel_analysis.sql
+-- Business Question:
+-- Where do users drop off in the checkout funnel?
+--
+-- Method:
+-- 1. Reconstruct session-level user journeys.
+-- 2. Identify whether each session saw key steps:
+--    home → basket → payment → purchase.
+-- 3. Calculate conversion rates between each step.
+--
+-- Why it matters:
+-- Funnel drop-off reveals friction points in the purchase journey.
+-- Improving the weakest step increases overall conversion rate.
+
 
 WITH session_steps AS (
   SELECT
