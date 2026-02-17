@@ -1,4 +1,15 @@
--- Channel Performance Analysis
+-- 03_channel_segmentation.sql
+-- Business Question:
+-- Which marketing channels drive the highest conversion rates?
+--
+-- Method:
+-- 1. Group sessions by traffic source medium.
+-- 2. Count total sessions and purchasing sessions.
+-- 3. Compute purchase rate per channel.
+--
+-- Why it matters:
+-- Channel-level conversion performance informs budget allocation
+-- and ROI optimization across paid, organic, referral, and affiliate sources.
 
 SELECT
   trafficSource.medium AS channel,
