@@ -1,0 +1,7 @@
+HOME (650,435 sessions)
+   ↓ 10.9%
+BASKET (71,192 sessions)
+   ↓ 24.9%
+PAYMENT (17,726 sessions)
+   ↓ 65.2%
+PURCHASE (11,551 sessions)
