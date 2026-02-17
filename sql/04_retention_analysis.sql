@@ -1,4 +1,16 @@
--- Returning User Rate
+-- 04_retention_analysis.sql
+-- Business Question:
+-- What percentage of users return to the platform?
+--
+-- Method:
+-- 1. Aggregate sessions by user (fullVisitorId).
+-- 2. Identify users with 2+ sessions.
+-- 3. Compute return rate.
+--
+-- Why it matters:
+-- Returning users are strongly correlated with higher lifetime value.
+-- Low retention may indicate weak product-market fit or poor engagement.
+
 
 WITH user_sessions AS (
   SELECT
