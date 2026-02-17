@@ -1,4 +1,4 @@
-# 📊 SQL Product Analytics Case Study (BigQuery)
+# SQL Product Analytics Case Study (BigQuery)
 
 ## Business Problem
 
